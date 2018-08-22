@@ -5,6 +5,6 @@
 ## Install help
 
 ## Version logs
-|version|remark|date|
+|version|remark|:date:|
 |-|:-:|-:| 
 | v1.0 | created projects | 2018-08-22|
