@@ -32,6 +32,17 @@
 
     <build>
         <finalName>gRPC-Cli4J</finalName>
+
+        <!--
+        <extensions>
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.5.0.Final</version>
+            </extension>
+        </extensions>
+        -->
+
         <resources>
             <resource>
                 <directory>conf/**</directory>
@@ -41,6 +52,7 @@
                 <directory>src/main/resources</directory>
             </resource>
         </resources>
+
 
         <plugins>
             <plugin>
