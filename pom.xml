@@ -20,15 +20,31 @@
 
         <!-- core deps -->
         <grpc.version>1.14.0</grpc.version>
+        <protoc.version>3.6.1</protoc.version>
+
+        <logback.version>1.2.3</logback.version>
+        <common-lang3.version>3.7</common-lang3.version>
+        <fastjson.version>1.2.47</fastjson.version>
     </properties>
-
-    <dependencies>
-
-    </dependencies>
 
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${common-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
             <!-- gRPC begin -->
             <dependency>
                 <groupId>io.grpc</groupId>
@@ -73,6 +89,7 @@
         <module>grpc-java-service</module>
         <module>java-client</module>
         <module>grpc-java-api</module>
+        <module>gprc-java-server</module>
     </modules>
 
 </project>
