@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.nbschain.gprc</groupId>
+    <artifactId>gRPC-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <main-class>io.nbschain.client.App</main-class>
+        <!-- dependency version -->
+        <ipfs.api.version>v1.2.0</ipfs.api.version>
+        <logback.version>1.2.3</logback.version>
+        <spring.version>4.3.18.RELEASE</spring.version>
+
+        <!-- core deps -->
+        <grpc.version>1.14.0</grpc.version>
+    </properties>
+
+</project>
