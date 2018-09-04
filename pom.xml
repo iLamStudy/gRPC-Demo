@@ -45,6 +45,7 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+
             <!-- gRPC begin -->
             <dependency>
                 <groupId>io.grpc</groupId>
